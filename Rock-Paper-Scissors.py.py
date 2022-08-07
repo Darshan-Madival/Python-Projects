@@ -11,10 +11,10 @@ l=['/','@','#','$']
 while(True):
  try:
   userinput = input(("It's your Turn to select the option: "))
-  print(f"the computer choose"" "+rand)
   if any(char.isdigit() for char in userinput):
     print("Please do not include digits in your item.")
     continue
+  print(f"the computer choose"" "+rand)  
   for i in l:
        if (userinput == i):
         print("invalid")
