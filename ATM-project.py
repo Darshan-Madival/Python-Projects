@@ -28,7 +28,7 @@ class ATM:
 
 if __name__ == '__main__':
  print("**********WELCOME TO THE ATM OF DARSHAN MADIVAL**********")
- p = int(input("ENTER YOUR ATM PIN: "))
+ p = int(input("PLEASE ENTER YOUR ATM PIN: "))
  while(True):
   atm = ATM()
   if(atm.pinnumber()==True):
